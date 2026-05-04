@@ -46,3 +46,7 @@ tasks.register('fatJar', Jar) {
 
     with jar
 }
+
+run {
+    standardInput = System.in
+}
